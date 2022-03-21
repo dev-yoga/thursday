@@ -12,3 +12,5 @@ def deduct_expense(budget, expense):
 new_budget_after_shirt = deduct_expense(current_budget, shirt_expense)
 
 print_remaining_budget(new_budget_after_shirt)
+
+# Nevermind Lol
