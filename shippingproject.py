@@ -1,4 +1,4 @@
-weight = 41.5
+weight = 51
 
 if weight <= 2:
   ground_cost = weight * 1.50 + 20
@@ -12,7 +12,7 @@ else:
   print("Error")
 print("Ground cost: ", ground_cost)
 
-premium_ground = 125
+premium_ground = 125.00
 print("Premium Ground flat rate:", premium_ground)
 
 if weight <= 2:
