@@ -26,3 +26,7 @@ print(produce[1])
 produce[1].append(4)
 
 print(produce[1][1])
+
+produce_update = produce + [["Apples", 5], ["Kiwis", 4]]
+
+print(produce_update)
