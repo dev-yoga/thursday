@@ -18,3 +18,5 @@ print(produce[1][1])
 oranges_total = produce[1][1]
 
 print(oranges_total)
+
+produce[1].remove(3) 
