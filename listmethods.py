@@ -16,3 +16,6 @@ print(fruits)
 
 some_range = range(10)
 print(list(some_range))
+
+range_diff_3 = range(0, 90, 3)
+print(list(range_diff_3))
