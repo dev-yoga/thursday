@@ -19,3 +19,6 @@ print(list(some_range))
 
 range_diff_3 = range(0, 90, 3)
 print(list(range_diff_3))
+
+fruit_len = len(fruits)
+print(fruit_len)
