@@ -22,3 +22,9 @@ print(list(range_diff_3))
 
 fruit_len = len(fruits)
 print(fruit_len)
+
+more_fruits = ["kiwi", "guava", "mango", "pineapple", "dragonfruit", "lychee"]
+print(more_fruits)
+
+sliced_fruits = more_fruits[2:4]
+print(sliced_fruits)
