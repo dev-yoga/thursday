@@ -5,3 +5,7 @@ fruits = ["apple", "peach", "banana", "orange", "papaya"]
 fruits.insert(2, "guava")
 
 print(fruits)
+
+fruits.pop()
+
+print(fruits)
