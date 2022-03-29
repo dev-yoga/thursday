@@ -39,3 +39,5 @@ print(banana_count)
 
 favorite_fruit_responses.sort()
 print(favorite_fruit_responses)
+favorite_fruit_responses.sort(reverse=True)
+print(favorite_fruit_responses)
