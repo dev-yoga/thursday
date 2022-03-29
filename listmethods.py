@@ -41,3 +41,8 @@ favorite_fruit_responses.sort()
 print(favorite_fruit_responses)
 favorite_fruit_responses.sort(reverse=True)
 print(favorite_fruit_responses)
+
+#the sort method doesn't return any value and thus does not need to be assigned to a variable since it modifies the list directly, if you assign the result of the method it will assign the value of None to the variable
+
+try_again = favorite_fruit_responses.sort()
+print(try_again)
