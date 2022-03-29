@@ -46,3 +46,6 @@ print(favorite_fruit_responses)
 
 try_again = favorite_fruit_responses.sort()
 print(try_again)
+
+#also None
+print(favorite_fruit_responses.sort())
