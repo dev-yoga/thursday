@@ -36,3 +36,6 @@ banana_count = favorite_fruit_responses.count("banana")
 
 print(orange_count)
 print(banana_count)
+
+favorite_fruit_responses.sort()
+print(favorite_fruit_responses)
