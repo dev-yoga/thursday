@@ -49,3 +49,8 @@ print(try_again)
 
 #also None
 print(favorite_fruit_responses.sort())
+
+#sorted(), however, comes before a list & generates a new lsit rather than modifying the one that already exists
+
+sorted_fruits = sorted(favorite_fruit_responses)
+print(sorted_fruits)
