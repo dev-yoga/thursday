@@ -1,0 +1,1 @@
+trip_planner_welcome = print("Welcome to triplplanner v1.0 <Name Here>")
