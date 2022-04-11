@@ -10,3 +10,4 @@ class Book:
 book_one = Book("Simulacra and Simulation", "Baudrillard", 164)
 
 print(book_one)
+print(book_one.title)
