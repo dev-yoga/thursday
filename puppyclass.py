@@ -6,3 +6,8 @@ class Puppy:
       self.age = input_age
       self.is_friendly = input_friendliness
 
+puppy_one = Puppy("Finn", "Italian Greyhound", 2)
+puppy_two = Puppy("Bailey", "Italian Greyhound", 1)
+
+print(puppy_one)
+print(puppy_two)
