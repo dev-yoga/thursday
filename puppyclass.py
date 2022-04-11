@@ -5,6 +5,8 @@ class Puppy:
       self.breed = input_breed
       self.age = input_age
       self.is_friendly = input_friendliness
+  def __str__(self):
+    return '{} {} {}'.format(self.name, self.breed, self.age)
 
 puppy_one = Puppy("Finn", "Italian Greyhound", 2)
 puppy_two = Puppy("Bailey", "Italian Greyhound", 1)
