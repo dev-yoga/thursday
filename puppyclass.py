@@ -7,9 +7,9 @@ class Puppy:
       self.is_friendly = input_friendliness
   def __str__(self):
     # new way >.>
-    #return '{} {} {}'.format(self.name, self.breed, self.age)
+    return '{} {} {}'.format(self.name, self.breed, self.age)
     # old way:
-    return  '%s %s %s'%(self.name, self.breed, self.age)
+    #return  '%s %s %s'%(self.name, self.breed, self.age)
 
 puppy_one = Puppy("Finn", "Italian Greyhound", 2)
 puppy_two = Puppy("Bailey", "Italian Greyhound", 1)
