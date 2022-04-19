@@ -4,3 +4,7 @@ mango_count = 0
 
 for mango_batches in mangoes:
     print (mango_batches)
+    for mango in mango_batches:
+        mango_count += mango
+
+print(mango_count)
